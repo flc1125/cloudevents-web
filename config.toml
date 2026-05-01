@@ -4,7 +4,7 @@ baseURL = "/"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-font_awesome_version = "5.11.2"
+font_awesome_version = "6.4.2"
 
 [params.logos]
 navbar = "cloudevents-icon-color.png"
@@ -59,10 +59,10 @@ url = "https://github.com/cloudevents"
 color = "black"
 
 [[params.social]]
-tag = "twitter"
-name = "Twitter"
-url = "https://twitter.com/CloudEventsIO"
-color = "twitter-blue"
+tag = "x-twitter"
+name = "X"
+url = "https://x.com/CloudEventsIO"
+color = "black"
 
 # Multilingual
 [languages]
