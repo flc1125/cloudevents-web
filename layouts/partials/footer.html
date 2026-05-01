@@ -74,7 +74,7 @@
 
         <div class="buttons is-radiusless">
           {{ range $social }}
-          <a class="button is-small is-{{ .color }} is-radiusless" href="{{ .url }}" target="_blank">
+          <a class="button is-small is-{{ .color }} is-radiusless" href="{{ .url }}" target="_blank" aria-label="{{ .tag | title }}">
             <span class="icon">
               <i class="fab fa-{{ .tag }}"></i>
             </span>
