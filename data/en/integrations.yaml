@@ -58,6 +58,11 @@
     Direktiv, a serverless workflow engine, which can take in [CloudEvents](https://docs.direktiv.io/docs/events/events.html) to trigger workflows
   url: https://direktiv.io
   logo: direktiv.png
+- name: EEP (Entity Engagement Protocol)
+  description: |
+    EEP, the Entity Engagement Protocol, is an open standard for push-based, signed event delivery between digital entities and the agents that follow them. EEP uses [CloudEvents v1.0.2](https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md) as its event envelope and adds HMAC-signed webhooks, SSE delivery, and optional access gates
+  url: https://eep.dev
+  logo: eep.png
 - name: European Commission
   description: |
     A CloudEvents validation service
